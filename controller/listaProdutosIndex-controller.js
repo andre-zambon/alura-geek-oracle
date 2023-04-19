@@ -97,7 +97,7 @@ const render = async () => {
   }
   catch (erro) {
     console.log(erro)
-    window.location.href = '../telas/index.html'
+    window.location.href = '../index.html'
   }
 }
 

@@ -24,7 +24,7 @@ import { clienteService } from '../service/cliente-service.js'
     }
     catch (erro) {
         console.log(erro)
-        window.location.href = "../telas/index.html"
+        window.location.href = "../index.html"
 
     }
 
@@ -37,11 +37,11 @@ import { clienteService } from '../service/cliente-service.js'
 
         try {
             await clienteService.atualizaProduto(inputCategoria.value, inputNome.value, inputPreco.value, inputDescricao.value, id) //recebe os dados que devem ser alterados na AP
-            window.location.href = "../telas/produtos.html"
+            window.location.href = "../produtos.html"
         }
         catch (erro) {
             console.log(erro)
-            window.location.href = "../telas/index.html"
+            window.location.href = "../index.html"
 
         }
     })

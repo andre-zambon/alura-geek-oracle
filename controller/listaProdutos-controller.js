@@ -42,7 +42,7 @@ cardProduto.addEventListener('click', async (evento) => {
         catch (erro) {
             // Em cas de erro, redireciona para a página inicial
             console.log(erro)
-            window.location.href = '../telas/index.html'
+            window.location.href = '../index.html'
         }
     }
 })
@@ -62,7 +62,7 @@ const render = async () => {
     }
     catch (erro) {
         console.log(erro)
-        window.location.href = '../telas/index.html'
+        window.location.href = '../index.html'
     }
 
 }

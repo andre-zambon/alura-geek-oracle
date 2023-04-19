@@ -15,12 +15,12 @@ formulario.addEventListener('submit', async (evento) => {
 
   try {
     await clienteService.criaProduto(foto, categoria, nome, preco, descricao)
-    window.location.href = '../telas/produtos.html'
+    window.location.href = '../produtos.html'
   }
 
   catch (erro) {
     console.log(erro)
-    window.location.href = '../telas/index.html'
+    window.location.href = '../index.html'
   }
 
 })

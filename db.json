@@ -7,6 +7,14 @@
       "preco": "23",
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
       "id": 1
+    },
+    {
+      "foto": "https://raw.githubusercontent.com/andre-zambon/alura-geek-oracle/f38a7de41a3ee0482a40477b3453d0672b5ffaf7/assets/img/console2.svg",
+      "categoria": "Star Wars",
+      "nome": "teste2",
+      "preco": "23",
+      "descricao": "https://raw.githubusercontent.com/andre-zambon/alura-geek-oracle/f38a7de41a3ee0482a40477b3453d0672b5ffaf7/assets/img/console2.svg https://raw.githubusercontent.com/andre-zambon/alura-geek-oracle/f38a7de41a3ee0482a40477b3453d0672b5ffaf7/assets/img/console2.svghttps://raw.githubusercontent.com/andre-zambon/alura-geek-oracle/f38a7de41a3ee0482a40477b3453d0672b5ffaf7/assets/img/console2.svghttps://raw.githubusercontent.com/andre-zambon/alura-geek-oracle/f38a7de41a3ee0482a40477b3453d0672b5ffaf7/assets/img/console2.svghttps://raw.githubusercontent.com/andre-zambon/alura-geek-oracle/f38a7de41a3ee0482a40477b3453d0672b5ffaf7/assets/img/console2.svghttps://raw.githubusercontent.com/andre-zambon/alura-geek-oracle/f38a7de41a3ee0482a40477b3453d0672b5ffaf7/assets/img/console2.svg",
+      "id": 2
     }
   ]
 }

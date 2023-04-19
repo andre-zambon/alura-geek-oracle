@@ -16,14 +16,14 @@ async function buscaProduto() {
       // Armazena o resultado da busca no localStorage
       localStorage.setItem('resultado-busca', JSON.stringify(listaDeResultado));
       // Redireciona para a página que irá exibir o resultado da busca
-      window.location.href = '../telas/buscaprodutos.html';
+      window.location.href = '../buscaprodutos.html';
     } else {
       alert("Produto não encontrado")
     }
   }
   catch (erro) {
     console.log(erro)
-    window.location.href = '../telas/index.html'
+    window.location.href = '../index.html'
   }
 }
 
@@ -50,14 +50,14 @@ async function buscaProdutoMobile() {
 
     if (listaDeResultado.length > 0) {
       localStorage.setItem('resultado-busca', JSON.stringify(listaDeResultado));
-      window.location.href = '../telas/buscaprodutos.html';
+      window.location.href = '../buscaprodutos.html';
     } else {
       alert('Não há o produto em estoque')
     }
   }
   catch (erro) {
     console.log(erro)
-    window.location.href = '../telas/index.html'
+    window.location.href = '../index.html'
   }
 }
 
