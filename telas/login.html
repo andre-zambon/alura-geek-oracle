@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css " href="../assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <a href="index.html" class="link-home"><img src="../assets/img/Logo.svg" class="cabecalho__logo"
+                alt="Logomarca da Alura Geek"></a>
+
+        <div class="busca__container">
+            <input type="text" name="busca" class="cabecalho__busca" data-busca placeholder="O que deseja encontrar?">
+            <button class="busca__botao" botao-busca></button>
+        </div>
+
+        <button class="cabecalho__botao-buscar" botao-busca><img src="../assets/img/Icone.svg"></button>
+
+    </header>
+
+    <div class="cabecalho__busca-mobile">
+        <input type="text" name="busca" class="" data-busca-mobile placeholder="O que deseja encontrar?">
+        <button class="cabecalho__botao-buscar" botao-busca-mobile><img src="../assets/img/Icone.svg"></button>
+
+    </div>
+
+    <main>
+        <div class="login__container">
+            <form class="login__formulario">
+                <h2 class="formulario__titulo formulario__titulo--centralizado">Iniciar Sessão</h2>
+
+                <input type="email" name="" required class="login__email" placeholder="Escreva seu email">
+
+                <input type="password" name="" required class="login__senha" placeholder="Escvreva sua senha">
+
+                <a href="produtos.html" class="login__botao botao--padrao">Entrar</a>
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+
+        <section class="container__rodape">
+            <div class="container__logo-links">
+                <a href="index.html" class="rodape__link-logo"><img src="../assets/img/Logo.svg" class="rodape__logo"
+                        alt="Logomarca alurageek"></a>
+                <ul class="rodape__lista">
+                    <li class="rodape__lista-item"><a href="" class="link-rodape">Quem somos nós</a></li>
+                    <li class="rodape__lista-item"><a href="" class="link-rodape">Politica de privacidade</a></li>
+                    <li class="rodape__lista-item"><a href="" class="link-rodape">Programa de fidelidade</a></li>
+                    <li class="rodape__lista-item"><a href="" class="link-rodape">Nossas lojas</a></li>
+                    <li class="rodape__lista-item"><a href="" class="link-rodape">Quero ser franqueado</a></li>
+                    <li class="rodape__lista-item"><a href="" class="link-rodape">Anuncie aqui</a></li>
+                </ul>
+            </div>
+            <form class="rodape__formulario" method="post">
+                <p class="formulario__titulo-rodape">Fale conosco</p>
+                <div class="formulario__container">
+                    <label class="formulario__nome" for="nome">Nome</label>
+                    <input type="text" id="nome" maxlength="40" required class="formulario__input-nome">
+                </div>
+                <textarea class="formulario__mensagem" maxlength="120" required
+                    placeholder="Escreva sua mensagem"></textarea>
+                <button type="submit" class="formulario__botao botao--padrao">Enviar mensagem</button>
+            </form>
+        </section>
+        <div class="rodape__creditos">
+            <p>Desenvolvido por André Zambon<br> 2021</p>
+        </div>
+    </footer>
+
+    <script type="module" src="../controller/buscaProduto-controller.js"></script>
+
+</body>
+
+</html>

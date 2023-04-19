@@ -1,0 +1,6 @@
+.cabecalho__botao-login {
+    border: 1px solid var(--cor-botao-azul);
+    color: var(--cor-botao-azul);
+    font-weight: 600;
+    padding: 1em 3em;
+}

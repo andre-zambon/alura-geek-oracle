@@ -1,0 +1,10 @@
+.container__logo-links {
+    text-align: center;
+}
+
+@media screen and (min-width: 1440px){
+    .container__logo-links {
+            align-items: top;
+            display: flex;
+        }
+    }

@@ -1,0 +1,5 @@
+.produto__link {
+    color: var(--cor-font-azul);
+    font-size: 14px;
+    font-weight: 700;
+}

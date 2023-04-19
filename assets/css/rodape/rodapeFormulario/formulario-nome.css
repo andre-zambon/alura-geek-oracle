@@ -1,0 +1,4 @@
+.formulario__nome {
+    color: var(--cor-texto-label);
+    padding: 0.5em;
+}

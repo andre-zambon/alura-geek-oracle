@@ -1,0 +1,12 @@
+.lista__ver-todos {
+    color: var(--cor-font-azul);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 768px){
+    .lista__ver-todos {
+          font-size: 16px;
+      }
+      
+  }

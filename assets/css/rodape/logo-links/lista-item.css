@@ -1,0 +1,16 @@
+.rodape__lista-item {
+    margin: 1em 0;
+}
+
+@media screen and (min-width: 768px){
+    .rodape__lista-item {
+           margin: 2em 0;
+       }
+    }
+
+    @media screen and (min-width: 1440px){
+
+        .rodape__lista-item {
+                margin: 0 0 2em 15em;
+            }
+        }

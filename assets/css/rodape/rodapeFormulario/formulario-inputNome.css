@@ -1,0 +1,16 @@
+.formulario__input-nome {
+    padding: 0.5em;
+}
+
+@media screen and (min-width: 768px){
+    .formulario__input-nome {
+            padding-right: 10em;
+        }
+    }
+
+    @media screen and (min-width: 1440px){
+        .formulario__input-nome {
+            padding-right: 20em;
+        }
+       
+    }

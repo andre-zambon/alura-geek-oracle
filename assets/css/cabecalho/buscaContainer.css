@@ -1,0 +1,12 @@
+.busca__container {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .busca__container {
+            background-color: var(--cor-background-cinza);
+            border-radius: 50px;
+            display: flex;
+            padding: 0.5em;
+        }
+    }

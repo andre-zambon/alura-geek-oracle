@@ -1,0 +1,128 @@
+@import url(produto.css);
+
+@import url(cabecalho/busca-botao.css);
+@import url(cabecalho/buscaContainer.css);
+@import url(cabecalho/cabecalho-botao-buscar.css);
+@import url(cabecalho/cabecalho-botao-login.css);
+@import url(cabecalho/cabecalho-busca.css);
+@import url(cabecalho/cabecalho-logo.css);
+@import url(cabecalho/cabecalho.css);
+
+@import url(index/banner/banner.css);
+@import url(index/banner/banner-botao.css);
+@import url(index/banner/banner-container.css);
+@import url(index/banner/banner-subtitulo.css);
+@import url(index/banner/banner-titulo.css);
+
+@import url(index/produtos/container.css);
+@import url(index/produtos/produtos-container.css);
+@import url(index/produtos/listaProdutos/lista-titulo.css);
+@import url(index/produtos/listaProdutos/lista-verTodos.css);
+@import url(index/produtos/listaProdutos/produtos-lista.css);
+@import url(index/produtos/produto/produto-foto.css);
+@import url(index/produtos/produto/produto-link.css);
+@import url(index/produtos/produto/produto-nome.css);
+@import url(index/produtos/produto/produto-preco.css);
+@import url(index/produtos/produto/produto.css);
+
+@import url(rodape/container-rodape.css);
+@import url(rodape/rodape-creditos.css);
+@import url(rodape/logo-links/container-Logolinks.css);
+@import url(rodape/logo-links/link-rodape.css);
+@import url(rodape/logo-links/linkLogo.css);
+@import url(rodape/logo-links/lista-item.css);
+@import url(rodape/logo-links/logo.css);
+@import url(rodape/logo-links/rodape-lista.css);
+@import url(rodape/rodapeFormulario/formulario-botao.css);
+@import url(rodape/rodapeFormulario/formulario-container.css);
+@import url(rodape/rodapeFormulario/formulario-inputNome.css);
+@import url(rodape/rodapeFormulario/formulario-mensagem.css);
+@import url(rodape/rodapeFormulario/formulario-mensagem.css);
+@import url(rodape/rodapeFormulario/formulario-nome.css);
+@import url(rodape/rodapeFormulario/formulario-rodape-titulo.css);
+@import url(rodape/rodapeFormulario/rodape-formulario.css);
+@import url(rodape/rodapeFormulario/rodape-logo.css);
+
+@import url(login/login-container.css);
+@import url(login/login-formulario/formulario-titulo.css);
+@import url(login/login-formulario/login-botao.css);
+@import url(login/login-formulario/login-email.css);
+@import url(login/login-formulario/login-formulario.css);
+@import url(login/login-formulario/login-senha.css);
+
+@import url(cadastro-produto/botao-cadasro.css);
+@import url(cadastro-produto/cabecalho-botaoMenuAdm.css);
+@import url(cadastro-produto/cadastro-container.css);
+@import url(cadastro-produto/cadastro-formulario.css);
+@import url(cadastro-produto/formulario-titulo.css);
+@import url(cadastro-produto/foto-produto.css);
+
+@import url(produtos/item-imagem.css);
+@import url(produtos/produto.css);
+@import url(produtos/produtos-botaoAdicionar.css);
+@import url(produtos/produtos-container.css);
+@import url(produtos/produtos-containerTitulo.css);
+@import url(produtos/produtos-listaCadastro.css);
+@import url(produtos/produtos-tituloCadastro.css);
+@import url(produtos/produtos.css);
+
+
+:root {
+    --font-principal: 'Raleway';
+    --cor-background-cinza: #f2f2f2;
+    --cor-botao-azul: #2A7AE4;
+    --cor-font-azul: #2A7AE4;
+    --cor-font-preto: #464646;
+    --cor-rodape-azul: #c6daf5;
+    --cor-texto-label: #A2A2A2;
+    --cor-texto-botao: #FFFFFF;
+    --cor-texto-branco: #FFFFFF;
+    --cor-titulo-lista-produto: #464646;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+
+.botao--padrao {
+    background-color: var(--cor-botao-azul);
+    color: var(--cor-texto-botao);
+    padding: 1em;
+   
+}
+
+.produtos__container--cinza {
+    background-color: var(--cor-background-cinza);
+    padding: 2em 2em
+}
+
+.produto--desktop {
+    display: none;
+}
+
+.formulario__titulo--tamanho {
+    font-size: 22px;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .produtos__container--cinza {
+        padding: 2em 4em;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .produto--desktop {
+            display: block;
+        }
+
+    .produtos__container--cinza {
+        padding: 3em 10em;
+    }
+}
+    
+    

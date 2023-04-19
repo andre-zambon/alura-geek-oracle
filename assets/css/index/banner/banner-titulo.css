@@ -1,0 +1,15 @@
+.banner__titulo {
+    color: var(--cor-texto-branco);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    width: 95%
+    
+}
+
+@media screen and (min-width: 768px) {
+    .banner__titulo {
+           font-size: 52px;
+           line-height: 62px;
+       }
+    }

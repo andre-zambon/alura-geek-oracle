@@ -1,0 +1,13 @@
+.login__senha {
+    border-bottom: 1px solid var(--cor-texto-label);
+    border-radius: 6px;
+    margin: 0.5em 0;
+    padding: 1em 0.5em;
+    width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+    .login__senha {
+            width: 40%
+        }
+    }

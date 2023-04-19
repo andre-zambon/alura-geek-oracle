@@ -1,0 +1,35 @@
+.cabecalho__busca-mobile {
+    display: none;
+}
+
+.cabecalho__busca--mobile {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: flex-start;
+}
+
+.cabecalho__busca {
+    padding: 1em;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__busca {
+           background-color: transparent;
+           display: block;
+           padding-right: 3em;
+       }
+    }
+
+@media screen and (min-width: 1440px) {
+    .cabecalho__busca {
+            width: 90%;
+       }
+
+    .busca__container {
+            justify-content: space-between;
+            padding: 0 1em;
+            width: 50%;
+        }
+    
+    }

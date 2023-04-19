@@ -1,0 +1,12 @@
+.produtos__container-titulo {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .produtos__container-titulo {
+           align-items: center;
+           flex-direction: row;
+           justify-content: space-between
+       }
+    }

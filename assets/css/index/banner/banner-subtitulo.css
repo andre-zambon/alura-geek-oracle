@@ -1,0 +1,15 @@
+.banner__subtitulo {
+    color: var(--cor-texto-branco);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    margin: 0.5em 0;
+}
+
+@media screen and (min-width: 768px) {
+    .banner__subtitulo {
+          font-size: 22px;
+          line-height: 26px;
+      }
+      
+  }

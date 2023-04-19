@@ -1,0 +1,23 @@
+.banner {
+    background-image: url('../../../img/Hero.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding:  5em 0 2em 0;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .banner {
+        padding: 12em 0 2em 0;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+   
+    .banner {
+        background-position-y:  -10em;
+        padding-bottom: 2em;
+    }
+}

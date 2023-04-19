@@ -1,0 +1,11 @@
+.cadastro__formulario {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1440px) {
+    .cadastro__formulario {
+            width: 35%;
+        }
+    }

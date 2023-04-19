@@ -1,0 +1,5 @@
+.lista__titulo {
+    color: var(--cor-titulo-lista-produto);
+    font-weight: 700;
+    font-size: 22px
+}

@@ -1,0 +1,12 @@
+.produtos__lista-cadastro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1440px) {
+    .produtos__lista-cadastro {
+            display: grid;
+            grid-template-columns: repeat(6, auto);
+       }
+   }

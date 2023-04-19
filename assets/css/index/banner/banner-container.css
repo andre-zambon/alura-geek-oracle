@@ -1,0 +1,18 @@
+.banner__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 1em;
+}
+
+@media screen and (min-width: 768px) {
+    .banner__container {
+            margin: 0 4em;
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        .banner__container {
+            margin: 0 10em;
+        }
+    }

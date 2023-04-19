@@ -1,0 +1,11 @@
+.formulario__mensagem {
+    border-bottom: 1px solid var(--cor-texto-label);
+    border-radius: 6px;
+    padding: 1em 0 3em 0;
+    resize: none;
+    width: 100%;
+}
+
+.formulario__mensagem::placeholder {
+    padding-left: 0.5em;
+}

@@ -1,0 +1,12 @@
+.produtos__titulo-cadastro {
+    color: var(--cor-titulo-lista-produto);
+    font-weight: 700;
+    font-size: 22px;
+}
+
+@media screen and (min-width: 768px) {
+    .produtos__lista-cadastro {
+           grid-template-columns: repeat(4, auto);
+       }
+       
+   } 

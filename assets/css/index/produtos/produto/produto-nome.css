@@ -1,0 +1,6 @@
+.produto__nome {
+    color: var(--cor-titulo-lista-produto);
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0.5em 0;
+}

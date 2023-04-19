@@ -1,0 +1,11 @@
+.login__botao {
+    margin: 1em 0;
+    text-align: center;
+    width: 30%;
+}
+
+@media screen and (min-width: 768px) {
+    .login__botao {
+         width: 20%
+     }
+ }
