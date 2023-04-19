@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head >
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Alura Geek</title>
-    <link rel="stylesheet" type="text/css " href="../assets/css/reset.css">
+    <link rel="stylesheet" type="text/css " href="/assets/css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 </head>
 
 <body>
 
     <header class="cabecalho">
-        <a href="index.html" class="link-home"><img src="../assets/img/Logo.svg" class="cabecalho__logo"
+        <a href="index.html" class="link-home"><img src="/assets/img/Logo.svg" class="cabecalho__logo"
                 alt="Logomarca da Alura Geek"></a>
         <div class="busca__container">
             <input type="text" name="busca" class="cabecalho__busca" placeholder="O que deseja encontrar?">
             <button class="busca__botao"></button>
         </div>
         <a href="produtos.html" class="cabecalho__botao-login cabecalho__botao-MenuAdm">Menu administrador</a>
-        <button class="cabecalho__botao-buscar"><img src="../assets/img/Icone.svg"></button>
+        <button class="cabecalho__botao-buscar"><img src="/assets/img/Icone.svg"></button>
     </header>
 
 
@@ -33,7 +33,7 @@
 
             <div class="formulario__container">
                 <label class="formulario__nome" for="fotoProduto">URL da imagem</label>
-                <input type="url" class="campo-cadastro" name="foto" id="fotoProduto" required data-foto>
+                <!-- <input type="file" class="campo-cadastro" name="foto" id="fotoProduto" required data-foto > -->
             </div>
 
             <div class="lista-categorias formulario__container">
@@ -63,7 +63,7 @@
                     maxlength="150" data-descricao></textarea>
             </div>
 
-            <button class="botao-cadastro botao--padrao">Adicionar produto</button>
+            <button class="botao-cadastro botao--padrao">Salvar edição</button>
 
         </form>
 
@@ -72,7 +72,7 @@
     <footer>
         <section class="container__rodape">
             <div class="container__logo-links">
-                <a href="index.html" class="rodape__link-logo"><img src="../assets/img/Logo.svg" class="rodape__logo"
+                <a href="index.html" class="rodape__link-logo"><img src="/assets/img/Logo.svg" class="rodape__logo"
                         alt="Logomarca alurageek"></a>
                 <ul class="rodape__lista">
                     <li class="rodape__lista-item"><a href="" class="link-rodape">Quem somos nós</a></li>
@@ -98,7 +98,7 @@
             <p>Desenvolvido por André Zambon<br> 2021</p>
         </div>
     </footer>
-    <script type="module" src="../controller/cadastraProduto-controller.js"></script>
+    <script type="module" src="/controller/editaProduto-controller.js"></script>
 </body>
 
 </html>

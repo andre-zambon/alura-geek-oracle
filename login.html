@@ -4,19 +4,19 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Alura Geek</title>
-    <link rel="stylesheet" type="text/css " href="../assets/css/reset.css">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css " href="/assets/css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 </head>
 
 <body>
 
     <header class="cabecalho">
 
-        <a href="index.html" class="link-home"><img src="../assets/img/Logo.svg" class="cabecalho__logo"
+        <a href="index.html" class="link-home"><img src="/assets/img/Logo.svg" class="cabecalho__logo"
                 alt="Logomarca da Alura Geek"></a>
 
         <div class="busca__container">
@@ -24,36 +24,36 @@
             <button class="busca__botao" botao-busca></button>
         </div>
 
-        <button class="cabecalho__botao-buscar" botao-busca><img src="../assets/img/Icone.svg"></button>
+        <button class="cabecalho__botao-buscar" botao-busca><img src="/assets/img/Icone.svg"></button>
 
     </header>
 
     <div class="cabecalho__busca-mobile">
         <input type="text" name="busca" class="" data-busca-mobile placeholder="O que deseja encontrar?">
-        <button class="cabecalho__botao-buscar" botao-busca-mobile><img src="../assets/img/Icone.svg"></button>
+        <button class="cabecalho__botao-buscar" botao-busca-mobile><img src="/assets/img/Icone.svg"></button>
 
     </div>
+
     <main>
+        <div class="login__container">
+            <form class="login__formulario">
+                <h2 class="formulario__titulo formulario__titulo--centralizado">Iniciar Sessão</h2>
 
-        <section class="produtos__container--cinza">
+                <input type="email" name="" required class="login__email" placeholder="Escreva seu email">
 
-            <div class="produtos__container-titulo">
-                <h2 class="produtos__titulo-cadastro">Todos os produtos</h2>
-                <a href="cadastroproduto.html" class="produtos__botao-adicionar botao--padrao">Adcionar produto</a>
-            </div>
+                <input type="password" name="" required class="login__senha" placeholder="Escvreva sua senha">
 
-            <ul class="produtos__lista-cadastro" data-lista>
+                <a href="produtos.html" class="login__botao botao--padrao">Entrar</a>
 
-            </ul>
-        </section>
-
+            </form>
+        </div>
     </main>
 
     <footer>
 
         <section class="container__rodape">
             <div class="container__logo-links">
-                <a href="index.html" class="rodape__link-logo"><img src="../assets/img/Logo.svg" class="rodape__logo"
+                <a href="index.html" class="rodape__link-logo"><img src="/assets/img/Logo.svg" class="rodape__logo"
                         alt="Logomarca alurageek"></a>
                 <ul class="rodape__lista">
                     <li class="rodape__lista-item"><a href="" class="link-rodape">Quem somos nós</a></li>
@@ -80,8 +80,7 @@
         </div>
     </footer>
 
-    <script type="module" src="../controller/buscaProduto-controller.js"></script>
-    <script type="module" src="../controller/listaProdutoBusca.js"></script>
+    <script type="module" src="/controller/buscaProduto-controller.js"></script>
 
 </body>
 
