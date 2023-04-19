@@ -39,7 +39,13 @@ main {
     .produto__container {
         align-items: initial;
         display: flex;
-        padding: 0 4em;
+        padding: 3em 4em;
+    }
+
+    .descricao__container {
+        display: flex;
+        flex-direction: column;
+        
     }
     
     .produto__foto-grande{
@@ -62,10 +68,7 @@ main {
 
         padding: 5em 10em;
     }
-    .produto__foto-grande {
-        width: 200%;
-    }
-
+    
     .produto__nome--tamanho {
         font-size: 52px;
     }
@@ -77,6 +80,10 @@ main {
     .lista__container {
         padding: 2em 10em;
     }
+
+    .produto__foto-grande{
+        width: 100%
+}
 
     .produtos__lista {
         grid-template-columns: repeat(6, auto);
