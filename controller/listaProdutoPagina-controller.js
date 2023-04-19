@@ -1,3 +1,5 @@
+import { clienteService } from '../service/cliente-service.js'
+
 // Função que retorna um elemento HTML com as informações do produto na página de detalhes
 const listaProdutoPagina = (produto) => {
   const divProduto = document.createElement('div');
